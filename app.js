@@ -10,7 +10,7 @@ var usersRouter = require('./routes/users');
 var app = express();
 
 // set port cho web
-  var port = process.env.PORT || 3001;
+  var port = process.env.PORT || 3003;
  app.listen (port);
 
 // view engine setup
